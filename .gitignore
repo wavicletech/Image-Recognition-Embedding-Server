@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local Python environment and package caches
+.conda/
+.venv/
+venv/
+.cache/
+huggingface/
+models/
+
+# Bytecode and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Downloaded weights, if a cache is created inside the repo
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Runtime output
+logs/
+*.log
+example_result.json
+bench/results/

@@ -1,0 +1,11 @@
+# Torch is installed from the CUDA 12.8 wheel index (Turing sm_75, fp16).
+#   pip install torch==2.8.0 torchvision==0.23.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0
+torchvision==0.23.0
+transformers>=4.57.1,<5
+qwen-vl-utils>=0.0.14
+accelerate>=1.0.0
+fastapi>=0.115.0
+uvicorn>=0.32.0
+pillow>=10.0.0
+numpy>=1.26.0
